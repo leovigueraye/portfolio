@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovigue Leonard Eguriase - CV</title>
+    <style>
+        @page {
+            margin: 0.75in;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .header .title {
+            font-size: 16px;
+            color: #7f8c8d;
+            margin: 5px 0 15px 0;
+            font-weight: 600;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 11px;
+            color: #555;
+        }
+        
+        .contact-info span {
+            display: flex;
+            align-items: center;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c3e50;
+            text-transform: uppercase;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            font-size: 13px;
+            color: #2c3e50;
+            margin-bottom: 2px;
+        }
+        
+        .company {
+            font-weight: 600;
+            color: #3498db;
+        }
+        
+        .date {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 11px;
+            margin-bottom: 8px;
+        }
+        
+        .subsection-title {
+            font-weight: bold;
+            font-size: 12px;
+            color: #34495e;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        
+        ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 6px;
+            font-size: 11px;
+            line-height: 1.5;
+        }
+        
+        .summary-text {
+            font-size: 11px;
+            text-align: justify;
+            line-height: 1.6;
+            color: #444;
+        }
+        
+        .achievement-box {
+            background: #ecf0f1;
+            padding: 12px;
+            border-left: 4px solid #3498db;
+            margin-bottom: 5px;
+            font-size: 11px;
+        }
+        
+        .achievement-box strong {
+            color: #2c3e50;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            font-size: 11px;
+        }
+        
+        .skill-category {
+            margin-bottom: 8px;
+        }
+        
+        .skill-category strong {
+            color: #2c3e50;
+            font-size: 11.5px;
+        }
+        
+        .project-item {
+            margin-bottom: 12px;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 12px;
+        }
+        
+        .project-link {
+            color: #3498db;
+            font-style: italic;
+            font-size: 10px;
+        }
+        
+        .education-item {
+            font-size: 12px;
+        }
+        
+        .degree {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .download-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #3498db;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        
+        .download-btn:hover {
+            background: #2980b9;
+        }
+        
+        @media print {
+            .download-btn {
+                display: none;
+            }
+            
+            body {
+                padding: 0;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="download-btn" onclick="window.print()">📄 Download as PDF</button>
+    
+    <div class="header">
+        <h1>OVIGUE LEONARD EGURIASE</h1>
+        <div class="title">Software Developer</div>
+        <div class="contact-info">
+            <span>📞 +234 808 357 0746</span>
+            <span>✉️ leguriase98@gmail.com</span>
+            <span>🔗 linkedin.com/in/leovigueraye</span>
+            <span>🌐 leovigueraye.netlify.app</span>
+            <span>📍 Lagos, Nigeria</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <p class="summary-text">
+            Experienced Software Developer with 3+ years of expertise in building large-scale enterprise systems for government and commercial clients. Proven track record in developing automated payroll systems processing 30,000+ employee records, HRMS platforms, and payment gateway integrations. Specialized in full-stack development, API design, database optimization, and delivering scalable solutions that drive operational efficiency. Adept at working with legacy systems, managing complex data migrations, and implementing business intelligence dashboards.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Key Achievements</div>
+        <div class="achievement-box">
+            <strong>Delivered automated payroll system</strong> processing 30,000+ staff records across 3 government agencies (MLG, PHC, SUBEB) with integrated payment gateways and real-time verification, reducing processing time by 80%
+        </div>
+        <div class="achievement-box">
+            <strong>Built and deployed production HRMS</strong> for Kano State Government (hr.mlgca.kn.gov.ng) with modules for recruitment, promotions, attendance, staff validation, and self-service portals
+        </div>
+        <div class="achievement-box">
+            <strong>Successfully migrated and validated 9,000+ staff records</strong> with automated duplicate detection, data normalization, and bulk import capabilities
+        </div>
+        <div class="achievement-box">
+            <strong>Developed business intelligence dashboards</strong> providing real-time analytics for payroll, sales performance, asset management, and HR decision-making
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        
+        <div class="job-title"><span class="company">Software Developer | Havosoft Technologies</span></div>
+        <div class="date">June 2025 – Present</div>
+        
+        <div class="subsection-title">Enterprise Payroll & HRMS Development:</div>
+        <ul>
+            <li>Architected and deployed automated payroll system handling salary generation, validation, bonus/deduction management, and disbursement for 30,000+ government employees across MLG, PHC, and SUBEB agencies</li>
+            <li>Integrated multiple payment gateways (Flutterwave, Sayswitch, Monnify) with fallback mechanisms, real-time transaction verification, and automated reconciliation processes</li>
+            <li>Implemented comprehensive validation framework reducing false positives by 70% through intelligent duplicate detection, bank verification, and data normalization</li>
+            <li>Built promotion module with approval workflows, audit logging, dashboard analytics, and automated letter generation for Kano State HRMS</li>
+            <li>Developed self-service portal enabling 9,000+ staff members to update bio-data directly, reducing HR workload and improving data accuracy</li>
+        </ul>
+        
+        <div class="subsection-title">System Optimization & Performance:</div>
+        <ul>
+            <li>Optimized database queries and implemented server-side processing for DataTables handling 30,000+ records, reducing page load time from 45s to 3s</li>
+            <li>Converted all staff dropdowns to AJAX-powered Select2 with server-side search, eliminating browser timeouts on large datasets</li>
+            <li>Designed batch processing system handling 1,000 records per iteration with real-time progress tracking and session-based processing for long-running imports</li>
+            <li>Implemented Entity-Attribute-Value (EAV) pattern for flexible payroll data normalization across multiple agencies with different structures</li>
+        </ul>
+        
+        <div class="subsection-title">API Development & Integration:</div>
+        <ul>
+            <li>Developed NIN verification API reselling module with wallet system, API key management, usage tracking, request logging, and rate limiting</li>
+            <li>Created identity verification API querying multiple financial platforms (Opay, PalmPay, FairMoney, Moniepoint) via Flutterwave endpoints</li>
+            <li>Built RESTful API endpoints for Salesflow CRM integration enabling seamless data exchange between systems</li>
+            <li>Implemented bank account verification system using Flutterwave API with fuzzy matching for bank code resolution</li>
+        </ul>
+        
+        <div class="subsection-title">Business Intelligence & Analytics:</div>
+        <ul>
+            <li>Designed interactive BI dashboards for Salesflow displaying leads management, deals pipeline, sales KPIs, activity tracking, and performance metrics</li>
+            <li>Created asset management dashboard for Reoterra with interactive maps, property visualization, and mobile-responsive design</li>
+            <li>Implemented comprehensive analytics for HRMS tracking staff demographics, retirement forecasts, department distribution, and incomplete records</li>
+            <li>Developed automated validation report generation system producing multi-sheet Excel exports with executive summaries, trend analysis, and actionable insights</li>
+        </ul>
+        
+        <div class="subsection-title">Additional Contributions:</div>
+        <ul>
+            <li>Built cybersecurity awareness LMS using Articulate Storyline with interactive courses, quizzes, progress tracking, and organization-based course assignment</li>
+            <li>Implemented attendance module with QR code check-in/check-out and geofencing to ensure on-premise attendance</li>
+            <li>Developed face verification system for attendance to prevent proxy check-ins</li>
+            <li>Created document management and collaboration modules with approval workflows for Havosoft ERP</li>
+        </ul>
+
+        <div class="job-title" style="margin-top: 20px;"><span class="company">IT Professional | Freelance</span></div>
+        <div class="date">October 2022 – June 2025</div>
+        
+        <div class="subsection-title">Software Development & Implementation:</div>
+        <ul>
+            <li>Developed and deployed secure web-based investment platform using Laravel framework with queued transaction processing, fund deposit/withdrawal management, portfolio tracking, and returns calculation</li>
+            <li>Built backend APIs with RESTful architecture ensuring accuracy and scalability under concurrent user load</li>
+            <li>Implemented multiple undergraduate project systems including full-stack web applications with MySQL databases and responsive frontends</li>
+            <li>Delivered custom software solutions for small businesses including inventory management and client relationship systems</li>
+        </ul>
+        
+        <div class="subsection-title">Technical Support & Consulting:</div>
+        <ul>
+            <li>Diagnosed and resolved hardware, software, and network issues for 20+ clients with 95% first-call resolution rate</li>
+            <li>Performed software installation, configuration, updates, and license management for Windows and Linux environments</li>
+            <li>Set up and configured network printers, scanners, and peripheral devices with driver optimization</li>
+            <li>Provided remote and on-site technical support ensuring minimal downtime for client operations</li>
+        </ul>
+
+        <div class="job-title" style="margin-top: 20px;"><span class="company">Computer Operator | Apo Cyber Cafe</span></div>
+        <div class="date">November 2020 – July 2022</div>
+        <ul>
+            <li>Operated computer systems and performed preventive maintenance on hardware and IT equipment</li>
+            <li>Conducted data entry operations using Microsoft Office Suite with high accuracy</li>
+            <li>Provided computer literacy training to students covering basic operations, internet usage, and office applications</li>
+            <li>Monitored system performance and resolved technical issues to ensure optimal uptime</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="education-item">
+            <span class="degree">BSc Computer Science</span><br>
+            University of Calabar, Calabar | 2024
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Programming & Frameworks:</strong><br>
+                PHP/Laravel, Python/Django, HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS
+            </div>
+            
+            <div class="skill-category">
+                <strong>Database Management:</strong><br>
+                MySQL, SQL Server, Database Design & Optimization, Query Performance Tuning
+            </div>
+            
+            <div class="skill-category">
+                <strong>Payment & API Integration:</strong><br>
+                Flutterwave, Sayswitch, Monnify, RESTful APIs, JSON, OAuth, API Security
+            </div>
+            
+            <div class="skill-category">
+                <strong>Enterprise Development:</strong><br>
+                HRMS Systems, Payroll Automation, Business Intelligence, ETL Processes, Batch Processing
+            </div>
+            
+            <div class="skill-category">
+                <strong>Development Tools:</strong><br>
+                Git/GitHub, CI/CD Pipelines, XAMPP, Linux Administration, PhpMyAdmin
+            </div>
+            
+            <div class="skill-category">
+                <strong>Frontend Libraries:</strong><br>
+                AJAX, jQuery, Select2, DataTables, Handsontable, Chart.js
+            </div>
+            
+            <div class="skill-category">
+                <strong>System Administration:</strong><br>
+                Linux Server Admin, Apache/Nginx, System Monitoring, Performance Optimization
+            </div>
+            
+            <div class="skill-category">
+                <strong>Specialized Skills:</strong><br>
+                Machine Learning Basics, Articulate Storyline, Data Validation, Microsoft Office (Advanced)
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Major Projects & Deployments</div>
+        
+        <div class="project-item">
+            <div class="project-title">Kano State HRMS</div>
+            <div class="project-link">Production: hr.mlgca.kn.gov.ng</div>
+            <ul>
+                <li>Comprehensive Human Resource Management System serving Kano State Local Government</li>
+                <li>Features: Staff records, payroll automation, promotions, recruitment, attendance, analytics</li>
+                <li>Scale: 30,000+ employee records, 10+ months payroll history</li>
+            </ul>
+        </div>
+        
+        <div class="project-item">
+            <div class="project-title">Protect Your Data LMS</div>
+            <div class="project-link">Cybersecurity Training Platform</div>
+            <ul>
+                <li>Interactive e-learning platform with Articulate Storyline courses and mobile-responsive quiz system</li>
+                <li>Organization-based course assignment with progress tracking and admin controls</li>
+            </ul>
+        </div>
+        
+        <div class="project-item">
+            <div class="project-title">Metadata NIN API Reselling Module</div>
+            <ul>
+                <li>NIN verification service with wallet system, API key management, and usage logging</li>
+                <li>Integrated payment gateway for wallet funding with real-time balance checking</li>
+            </ul>
+        </div>
+        
+        <div class="project-item">
+            <div class="project-title">Salesflow CRM & BI Dashboard</div>
+            <ul>
+                <li>Sales pipeline management with business intelligence dashboards and Android APK compilation</li>
+                <li>Leads, deals, opportunity tracking with comprehensive analytics and KPI visualization</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Development</div>
+        <ul>
+            <li>Focused on software architecture and design patterns for enterprise-scale applications</li>
+            <li>Continuous learning in performance optimization, scalability, and security best practices</li>
+            <li>Advanced database modeling, query optimization, and modern development workflows</li>
+            <li>Proficient with AI-assisted development tools including Cursor AI Code Editor</li>
+        </ul>
+    </div>
+
+    <div class="section" style="text-align: center; margin-top: 30px; font-size: 10px; color: #7f8c8d;">
+        <em>References available upon request</em>
+    </div>
+
+    <script>
+        // Add print functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // You can add any interactive features here if needed
+        });
+    </script>
+</body>
+</html>
